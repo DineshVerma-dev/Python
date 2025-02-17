@@ -32,8 +32,12 @@ chai_one = "lemon"
 # Address of y: 140720343680200
 # >>> 
 
+from hmac import digest
 import random
 random.choice([1,2,3,4,5,6,7,8,9])
 
 myD = {'one':'lemon','two':'hello'}
 print(myD)
+
+print(len(myD))
+
